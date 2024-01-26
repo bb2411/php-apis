@@ -2,6 +2,8 @@
     "require": {
         "setasign/fpdi": "^2.6",
         "setasign/fpdi-tcpdf": "^2.3",
-        "dompdf/dompdf": "^2.0"
+        "dompdf/dompdf": "^2.0",
+        "fizzday/fizzjwt": "^0.1.0",
+        "firebase/php-jwt": "^6.10"
     }
 }

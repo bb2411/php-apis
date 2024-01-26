@@ -23,6 +23,8 @@ class ComposerStaticInit394db9ff3e8bed461b3131f49f543b23
         'F' => 
         array (
             'FontLib\\' => 8,
+            'Fizzday\\FizzJWT\\' => 16,
+            'Firebase\\JWT\\' => 13,
         ),
         'D' => 
         array (
@@ -50,6 +52,14 @@ class ComposerStaticInit394db9ff3e8bed461b3131f49f543b23
         'FontLib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib',
+        ),
+        'Fizzday\\FizzJWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fizzday/fizzjwt/src',
+        ),
+        'Firebase\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
         'Dompdf\\' => 
         array (

@@ -5,7 +5,8 @@
         '/apis/adduser'=>"adduser.php",
         '/apis/generatepdf'=>"generatebasicpdf.php",
         '/apis/generatexlsx'=>"generatebasicxlsx.php",
-        '/apis/authapi'=>"./auth api/index.php"
+        '/apis/authapi/userverify'=>"./auth api/userverify.php",
+        '/apis/authapi/userauth'=>"./auth api/userauth.php"
     ];
     if(isset($routes[$requesturi])){
         include $routes[$requesturi];
