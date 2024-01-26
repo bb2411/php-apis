@@ -24,6 +24,8 @@ while($row=$result->fetch_assoc()){
         $tok=JWT::encode($payload,$secretkey,'HS512');
         header("HTTP_TOKEN:$tok");
         echo $tok;
+    }else{
+        echo json_encode(["status"=>401,"msg"=>"Password incorrect"]);
     }
 }
 ?>

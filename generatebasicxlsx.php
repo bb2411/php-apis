@@ -17,6 +17,6 @@
         $html.= "</table>";
     }
     header("Content-Type:application/xlsx");
-    header("Content-Disposition:attachment; filename=data.xlsx");
+    header("Content-Disposition:attachment; filename=data.xls");
     echo $html;
 ?>
